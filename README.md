@@ -1,44 +1,29 @@
-# WhatsApp Bot Hybrid (QR + Pairing)
-> Bot WhatsApp dengan dua metode login — QR Code & Pairing Code — dibuat menggunakan library Baileys. Bot ini juga mendukung hot-reload plugin, sistem limit per user, dan konfigurasi yang mudah.
-> 
-✨ Fitur Utama
- * Login Fleksibel: Pilih antara QR Code atau Pairing Code untuk login.
- * Tanpa Warning Deprecated: Code dioptimalkan untuk menghilangkan warning.
- * Hot-Reload Plugin: Perubahan pada plugin langsung aktif tanpa perlu me-restart bot.
- * Sistem Limit Per User: Batasi penggunaan bot per hari untuk setiap pengguna.
- * Struktur Modular: Command dan konfigurasi dipisahkan, membuat bot lebih rapi dan mudah diatur.
- * Mudah Dipasang & Dikonfigurasi: Proses instalasi dan setup yang sederhana.
-``` bash 
-git clone https://github.com/G4NGGAAA/Bot-Wa.git
-cd Bot-Waa
-npm install
-npm start
-```
-3. Konfigurasi Bot
-Edit file settings/config.js:
-export default {
-    NomorBot: "null", // isi nomor bot atau biarkan null untuk input saat pairing
-    limit: {
-        enable: true,
-        maxDaily: 50,
-        resetIntervalMs: 86400000 // 24 jam
-    }
-}
+# 🤖 WhatsApp Bot Hybrid (QR + Pairing)
 
-▶️ Cara Menjalankan
-Mode QR Code
-Jalankan bot dan pilih opsi 1:
-npm start
+![Node.js](https://img.shields.io/badge/Node.js-v18%2B-green?logo=node.js)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Baileys](https://img.shields.io/badge/Baileys-Library-orange)
 
-Pilih metode login:
-1. QR
-2. Pairing Code
-Masukkan pilihan (1/2): 1
+> Bot WhatsApp dengan **dua metode login** — QR Code & Pairing Code — dibuat menggunakan library [Baileys](https://www.npmjs.com/package/@yupra/baileys). Bot ini juga mendukung **hot-reload plugin**, **sistem limit per user**, dan konfigurasi yang mudah.
 
-Selanjutnya, scan QR yang muncul di terminal.
-Mode Pairing Code
-Jalankan bot dan pilih opsi 2:
-npm start
+---
+
+## ✨ Fitur Utama
+* **Login Fleksibel**: Pilih antara QR Code atau Pairing Code untuk login.
+* **Tanpa Warning Deprecated**: Kode dioptimalkan untuk menghilangkan peringatan.
+* **Hot-Reload Plugin**: Perubahan pada plugin langsung aktif tanpa perlu me-restart bot.
+* **Sistem Limit Per User**: Batasi penggunaan bot per hari untuk setiap pengguna.
+* **Struktur Modular**: `Command` dan konfigurasi dipisahkan, membuat bot lebih rapi dan mudah diatur.
+* **Mudah Dipasang & Dikonfigurasi**: Proses instalasi dan setup yang sederhana.
+
+---
+
+## 📦 Instalasi
+
+### 1. Clone Repository
+```bash
+git clone [https://github.com/username/wabot-hybrid.git](https://github.com/username/wabot-hybrid.git)
+cd wabot-hybrid
 
 Pilih metode login:
 1. QR
