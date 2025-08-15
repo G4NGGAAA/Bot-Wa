@@ -1,0 +1,24 @@
+{
+  "name": "G4NGGAAA",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot dengan opsi QR dan Pairing Code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "G4NGGAAA",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^6.7.10",
+    "@yupra/baileys": "^1.1.1",
+    "axios": "^1.11.0",
+    "cheerio": "^1.1.2",
+    "form-data": "^4.0.4",
+    "node-fetch": "^3.3.2",
+    "pino": "^7.11.0",
+    "qs": "^6.14.0"
+  }
+}
