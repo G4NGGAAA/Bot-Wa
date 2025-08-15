@@ -1,5 +1,4 @@
-Sure, I can help with that. Here is the content formatted as a complete README.md file, ready for you to copy and paste.
-🤖 WhatsApp Bot Hybrid (QR + Pairing)
+# WhatsApp Bot Hybrid (QR + Pairing)
 > Bot WhatsApp dengan dua metode login — QR Code & Pairing Code — dibuat menggunakan library Baileys. Bot ini juga mendukung hot-reload plugin, sistem limit per user, dan konfigurasi yang mudah.
 > 
 ✨ Fitur Utama
