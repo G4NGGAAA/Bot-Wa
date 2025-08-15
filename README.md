@@ -8,15 +8,12 @@
  * Sistem Limit Per User: Batasi penggunaan bot per hari untuk setiap pengguna.
  * Struktur Modular: Command dan konfigurasi dipisahkan, membuat bot lebih rapi dan mudah diatur.
  * Mudah Dipasang & Dikonfigurasi: Proses instalasi dan setup yang sederhana.
-📦 Instalasi
-1. Clone Repository
-git clone https://github.com/username/wabot-hybrid.git
-cd wabot-hybrid
-
-2. Install Dependencies
-Pastikan Node.js v18+ sudah terpasang.
+``` bash 
+git clone https://github.com/G4NGGAAA/Bot-Wa.git
+cd Bot-Waa
 npm install
-
+npm start
+```
 3. Konfigurasi Bot
 Edit file settings/config.js:
 export default {
