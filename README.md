@@ -48,12 +48,12 @@ Pilih metode login:
 2. Pairing Code
 
 Masukkan pilihan (1/2):
-
- * Jika Anda memilih Pairing Code, masukkan nomor bot Anda (jika belum diatur di settings/config.js), dan kode pairing akan muncul di terminal.
- * Jika Anda memilih QR Code, pindai QR yang muncul menggunakan aplikasi WhatsApp di ponsel Anda.
+Jika Anda memilih Pairing Code, masukkan nomor bot Anda (jika belum diatur di settings/config.js), dan kode pairing akan muncul di terminal.
+Jika Anda memilih QR Code, pindai QR yang muncul menggunakan aplikasi WhatsApp di ponsel Anda.
    --
 ## 📂 Struktur Proyek
 Berikut adalah struktur folder dari proyek ini:
+```bash
 .
 ├── command/              # Folder untuk semua plugin/command bot
 ├── lib/                  # Berisi file helper & koneksi utama
@@ -61,7 +61,7 @@ Berikut adalah struktur folder dari proyek ini:
 ├── sesi/                 # Menyimpan data sesi login (jangan dihapus)
 ├── index.js              # File utama untuk menjalankan bot
 └── package.json
-
+```
 🛠 Menambahkan Command Baru
 Membuat perintah baru sangatlah mudah. Cukup buat file .js baru di dalam folder command/. Bot akan secara otomatis memuatnya berkat fitur hot-reload.
 Contoh: command/ping.js
