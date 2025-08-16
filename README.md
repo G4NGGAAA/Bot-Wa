@@ -64,7 +64,8 @@ Berikut adalah struktur folder dari proyek ini:
 ```
 🛠 Menambahkan Command Baru
 Membuat perintah baru sangatlah mudah. Cukup buat file .js baru di dalam folder command/. Bot akan secara otomatis memuatnya berkat fitur hot-reload.
-Contoh: command/ping.js
+Contoh: 
+```bash command/ping.js
 // Handler function
 async function handler(sock, m) {
     await sock.sendMessage(m.chat, { text: 'Pong!' });
@@ -77,23 +78,18 @@ handler.tags = ['main'];
 
 // Export the handler
 export default handler;
-
+```
 Simpan file tersebut, dan perintah ping akan langsung aktif tanpa perlu restart.
 ⚠️ Catatan Penting
  * Jangan hapus folder sesi/ kecuali Anda ingin login ulang dari awal.
  * Pastikan koneksi internet Anda stabil selama proses pairing atau scan QR.
  * Nomor yang digunakan untuk bot harus merupakan nomor WhatsApp yang aktif.
 --
-👥 Kredit & Apresiasi
+## 👥 Kredit & Apresiasi
 Proyek ini tidak akan terwujud tanpa kontribusi dari:
- * Creator Base: Fauzi Alifatahfauzi
- * Pengembang Base: G4NGGAAA
- * Penyedia Baileys: @yupra/baileys
-📜 Lisensi
-Didistribusikan di bawah Lisensi MIT. Lihat LICENSE untuk informasi lebih lanjut.
-<p align="center">
-Dibuat untuk mempermudah pengembangan bot WhatsApp yang fleksibel dan modular.
-</p>
+ # * Creator Base: Fauzi Alifatahfauzi
+ # * Pengembang Base: G4NGGAAA
+ # * Penyedia Baileys: @yupra/baileys
 
 ---
 
