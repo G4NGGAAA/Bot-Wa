@@ -46,10 +46,12 @@ Setelah dijalankan, Anda akan diminta memilih metode login:
 Pilih metode login:
 1. QR Code
 2. Pairing Code
-
-Masukkan pilihan (1/2):
+   
+7. Masukkan pilihan (1/2):
 Jika Anda memilih Pairing Code, masukkan nomor bot Anda (jika belum diatur di settings/config.js), dan kode pairing akan muncul di terminal.
-Jika Anda memilih QR Code, pindai QR yang muncul menggunakan aplikasi WhatsApp di ponsel Anda.
+
+9. Jika Anda memilih QR Code, pindai QR yang muncul menggunakan aplikasi WhatsApp di ponsel Anda.
+
    --
 ## 📂 Struktur Proyek
 Berikut adalah struktur folder dari proyek ini:
