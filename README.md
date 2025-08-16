@@ -1,5 +1,5 @@
 # 🤖 WhatsApp Bot Hybrid (QR & Pairing Code)
-  *By G4NGGAAA
+  * By G4NGGAAA
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-v18%2B-339933?style=for-the-badge&logo=node.js" alt="Node.js">
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
