@@ -89,9 +89,9 @@ Simpan file tersebut, dan perintah ping akan langsung aktif tanpa perlu restart.
 --
 ## 👥 Kredit & Apresiasi
 Proyek ini tidak akan terwujud tanpa kontribusi dari:
- # * Creator Base: Fauzi Alifatahfauzi
- # * Pengembang Base: G4NGGAAA
- # * Penyedia Baileys: @yupra/baileys
+  * Creator Base: Fauzi Alifatahfauzi
+ * Pengembang Base: G4NGGAAA [https://github.com/G4NGGAAA]
+ * Penyedia Baileys: @yupra/baileys
 
 ---
 
